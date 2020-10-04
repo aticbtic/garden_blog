@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>For the love of Gardening!</title>
+  </head>
+  <body>
+      <section class="jumbotron text-center text-center text-white">
+        <div class="container">
+          <h1 class="jumbotron-heading display-3">For the love of Gardening</h1></br>
+          <p class="lead">“No occupation is so delightful to me as the culture of the earth, no culture comparable to that of the garden...But though an old man, I am but a young gardener.”
+
+― Thomas Jefferson</p>
+        </div>
+      </section>
+    <section>
+    <div class="container">
+      <div class="row justify-content-center m-5" >
+        <div class="col-6" align="center">
+           <div class="card" style="width: 18rem;">
+              <img src=<%=asset_url("tavin-dotson-dahlia-unsplash.jpg")%> class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Flowers</h5>
+                <p class="card-text">Oregon flower seeds retailers</p>
+                <%= link_to " Go ", "/flowers/index", class:"btn btn-primary" %>
+  <!--                <a href="#" class="btn btn-primary">Go </a> -->
+              </div>
+          </div>
+        </div>
+        <div class="col-6" align="center">
+           <div class="card" style="width: 18rem;">
+              <img src=<%=asset_url("monika-grabkowska-small_unsplash.jpg")%> class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Vegetables</h5>
+                <p class="card-text">Oregon vegetable seeds retailers</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+          </div>
+        </div>
+      </div>  
+    </div>
+  </section>
+  <footer id="sticky-footer" class="py-4 bg-dark text-white">
+    <div class="container text-center">
+      <small>Copyright &copy; <%= link_to "Angela Tan", "https://www.linkedin.com/in/angelaitan/", class: "text-white" %></small>
+    </div>
+  </footer>    
+
+    <!-- Optional JavaScript -->
+  </body>
+</html>
